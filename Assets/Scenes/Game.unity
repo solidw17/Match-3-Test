@@ -3085,7 +3085,7 @@ MonoBehaviour:
   GemPrefab: {fileID: 8786468497890557619, guid: e7347b91b120f7048a31e6b4391693f4,
     type: 3}
   GridSize: 6
-  Distance: 0.8
+  Distance: 1
   Select: {fileID: 8300000, guid: de1be6999d9fe31488876afd94224880, type: 3}
   Clear: {fileID: 8300000, guid: 2ea3456b0e8732f4aae036b3c754ade4, type: 3}
   Swap: {fileID: 8300000, guid: e19c7a35779ba7f4fb09e5581aadb5d3, type: 3}
@@ -3097,17 +3097,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701680221}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10.000013}
-  m_LocalScale: {x: 30, y: 30, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2107985098}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 49.99878, y: 50}
-  m_SizeDelta: {x: -560, y: -540}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 55, y: 55}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1701680224
 AudioSource:
