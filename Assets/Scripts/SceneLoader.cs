@@ -34,7 +34,6 @@ public class SceneLoader : MonoBehaviour
 
     public void TryAgain()
     {
-        //Time.timeScale = 1;
         TryAgainButton = GameObject.Find("Try Again Button");
         tryAgain = TryAgainButton.GetComponent<Animator>();
         tryAgain.SetBool("ButtonDown", true);
@@ -43,7 +42,6 @@ public class SceneLoader : MonoBehaviour
 
     public void GoToMenu()
     {
-        //Time.timeScale = 1;
         MenuButton = GameObject.Find("Menu Button");
         menu = MenuButton.GetComponent<Animator>();
         menu.SetBool("ButtonDown", true);

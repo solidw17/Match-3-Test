@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Adjusts to camera size according to screen height and width
     void Awake()
     {
         float orthoSize = 7f * Screen.height / Screen.width * 0.5f;

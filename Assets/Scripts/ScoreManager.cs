@@ -15,20 +15,6 @@ public class ScoreManager : MonoBehaviour
     int score = 0;
     int target = 1000;
 
-    //void Awake()
-    //{
-    //    GameObject[] objs = GameObject.FindGameObjectsWithTag("Score");
-
-    //    if (objs.Length > 1)
-    //    {
-    //        Destroy(this.gameObject);
-    //    }
-
-    //    DontDestroyOnLoad(this.gameObject);
-    //    target += 1000;
-    //    score = 0;
-    //}
-
     // Start is called before the first frame update
     void Start()
     {

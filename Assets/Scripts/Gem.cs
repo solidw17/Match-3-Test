@@ -34,6 +34,7 @@ public class Gem : MonoBehaviour
                 if (selectedGem == this)
                     return;
                 selectedGem.UnselectGem();
+                // If the next gem selected is adjacent to the current gem, swap
                 if (Vector2Int.Distance(selectedGem.Position, Position) == 1)
                 {
                     GridManager.Instance.SwapGems(Position, selectedGem.Position);
